@@ -1,0 +1,31 @@
+---
+- name: AWS Security Audit
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    #- name: installing awscli, python and pip
+    #  apt:
+    #     name: "{{ item }}"
+    #     state: present
+    #     #update_cache: yes
+    #  become: true
+    #  with_items:
+    #     - python
+    #     - python3-pip
+    #     - awscli
+      - name: cloning the repo
+        git:
+         repo: https://github.com/nccgroup/ScoutSuite.git
+         dest: /home/varun/capstone_1/scoutsuite
+         clone: yes
+         update: yes
+      - name: execute
+        command: python3 /home/varun/capstone_1/scoutsuite/scout.py aws
+
+
+   # - name: install scoutsuite
+   #   pip:
+   #     name: scoutsuite
+   #     state: present
+   # - name: execution of scoutsuite
+   #   command: /home/varun/.local/bin/scout aws --profile security_automation -f
