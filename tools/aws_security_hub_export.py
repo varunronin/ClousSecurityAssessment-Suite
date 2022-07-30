@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from CSASuite.providers.aws.utils import get_caller_identity
-from CSASuite.core.console import set_logger_configuration, print_info, print_exception
+from ScoutSuite.providers.aws.utils import get_caller_identity
+from ScoutSuite.core.console import set_logger_configuration, print_info, print_exception
 from tools.utils import results_file_to_dict
 
 import datetime

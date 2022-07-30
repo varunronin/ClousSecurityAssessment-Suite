@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import unittest
-from CSASuite.core.console import *
+from ScoutSuite.core.console import *
 
 class TestOpinelUtilsConsoleClass(unittest.TestCase):
 

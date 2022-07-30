@@ -1,15 +1,15 @@
 include LICENSE
 include README.md
 include requirements.txt
-recursive-include CSA/data *
-recursive-include CSA/output/data *
-recursive-include CSA/providers/aws *
-recursive-include CSA/providers/aws/rules *
-recursive-include CSA/providers/azure *
-recursive-include CSA/providers/azure/rules *
-recursive-include CSA/providers/gcp *
-recursive-include CSA/providers/gcp/rules *
-recursive-include CSA/providers/aliyun *
-recursive-include CSA/providers/aliyun/rules *
-recursive-include CSA/providers/oci *
-recursive-include CSA/providers/oci/rules *
+recursive-include ScoutSuite/data *
+recursive-include ScoutSuite/output/data *
+recursive-include ScoutSuite/providers/aws *
+recursive-include ScoutSuite/providers/aws/rules *
+recursive-include ScoutSuite/providers/azure *
+recursive-include ScoutSuite/providers/azure/rules *
+recursive-include ScoutSuite/providers/gcp *
+recursive-include ScoutSuite/providers/gcp/rules *
+recursive-include ScoutSuite/providers/aliyun *
+recursive-include ScoutSuite/providers/aliyun/rules *
+recursive-include ScoutSuite/providers/oci *
+recursive-include ScoutSuite/providers/oci/rules *

@@ -3,9 +3,9 @@ import os
 import tempfile
 import unittest
 
-from CSASuite.core.console import set_logger_configuration, print_error
-from CSASuite.core.processingengine import ProcessingEngine
-from CSASuite.core.ruleset import Ruleset
+from ScoutSuite.core.console import set_logger_configuration, print_error
+from ScoutSuite.core.processingengine import ProcessingEngine
+from ScoutSuite.core.ruleset import Ruleset
 
 
 class DummyObject(object):

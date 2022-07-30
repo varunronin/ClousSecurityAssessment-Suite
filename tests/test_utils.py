@@ -1,5 +1,5 @@
 # Import AWS utils
-from CSASuite.providers.aws.utils import (
+from ScoutSuite.providers.aws.utils import (
     get_keys,
     no_camel,
     get_name,
@@ -8,7 +8,7 @@ from CSASuite.providers.aws.utils import (
     get_partition_name,
     snake_keys,
 )
-from CSASuite.utils import *
+from ScoutSuite.utils import *
 import collections
 import unittest
 from unittest import mock

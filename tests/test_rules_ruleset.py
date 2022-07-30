@@ -2,9 +2,9 @@ import os
 
 from unittest import mock
 import unittest
-from CSASuite.core.console import set_logger_configuration, print_debug
-from CSASuite.core.rule import Rule
-from CSASuite.core.ruleset import Ruleset
+from ScoutSuite.core.console import set_logger_configuration, print_debug
+from ScoutSuite.core.rule import Rule
+from ScoutSuite.core.ruleset import Ruleset
 
 
 class TestScoutRulesRuleset(unittest.TestCase):

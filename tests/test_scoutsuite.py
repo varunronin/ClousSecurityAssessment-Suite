@@ -3,8 +3,8 @@ import unittest
 from unittest import mock
 
 import pytest
-from CSASuite.__main__ import run_from_cli
-from CSASuite.core.console import set_logger_configuration
+from ScoutSuite.__main__ import run_from_cli
+from ScoutSuite.core.console import set_logger_configuration
 
 
 class TestScoutSuiteClass(unittest.TestCase):

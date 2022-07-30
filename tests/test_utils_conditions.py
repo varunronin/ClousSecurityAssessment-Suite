@@ -3,7 +3,7 @@ import os
 import unittest
 
 
-from CSASuite.core.conditions import *
+from ScoutSuite.core.conditions import *
 
 class TestOpinelConditionClass(unittest.TestCase):
     """
