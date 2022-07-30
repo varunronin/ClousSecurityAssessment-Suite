@@ -5,7 +5,7 @@ import os
 from setuptools import setup, find_packages
 
 # Package info
-NAME = 'ScoutSuite'
+NAME = 'CSA'
 ROOT = os.path.dirname(__file__)
 VERSION = __import__(NAME).__version__
 
@@ -19,28 +19,28 @@ with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'requirement
 setup(
     name=NAME,
     version=VERSION,
-    description='Scout Suite, a multi-cloud security auditing tool',
+    description='multi-cloud security assessment tool',
     long_description_content_type='text/markdown',
     long_description=open('README.md').read(),
     author='NCC Group',
-    url='https://github.com/nccgroup/ScoutSuite',
+    url='https://github.com/nccgroup/CSA',
     entry_points={
         'console_scripts': [
-            'scout = ScoutSuite.__main__:run_from_cli',
+            'scout = CSA.__main__:run_from_cli',
         ]
     },
     packages=find_packages(),
     package_data={
-        'ScoutSuite.data': [
+        'CSA.data': [
             '*.json'
         ],
-        'ScoutSuite.output': [
+        'CSA.output': [
             '*.html',
             '*.js',
             '*.css',
             '*.zip'
         ],
-        'ScoutSuite.providers': [
+        'CSA.providers': [
             '*.json'
         ]
     },
